@@ -3,7 +3,7 @@
 # All rights reserved.
 #
 
-AC_INIT([protoc-wedge], [1.0], [sksubra@juniper.net])
+AC_INIT([protoc-wedge], [1.0], [srikanth2212@gmail.com])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign -Wno-portability])
 
 AC_PROG_CC
