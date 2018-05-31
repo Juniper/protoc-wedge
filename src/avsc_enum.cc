@@ -120,8 +120,6 @@ void EnumGenerator::GenerateDefinition(io::Printer* printer,
   }
   enumVal += "] } ], \"default\": null }";
 
-  std::cout<<"inserting enumKey " <<enumKey<<endl; 
-
   enumMap->insert(std::pair<std::string, std::string>(enumKey, enumVal));
 
 }

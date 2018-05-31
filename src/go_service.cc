@@ -89,7 +89,6 @@ ServiceGenerator::ServiceGenerator(const ServiceDescriptor* descriptor,
   vars_["fullName"] = descriptor_->full_name();
   vars_["camelName"] = c::FullNameToC(descriptor_->full_name());
   vars_["package"] = descriptor_->file()->package();
-  cout<<"Inside ServiceGenerator"<<endl;
 }
 
 ServiceGenerator::~ServiceGenerator() {}
@@ -100,9 +99,6 @@ void ServiceGenerator::GenerateCFile(io::Printer* printer,
   int n_methods = descriptor_->method_count();
   std::map<string, string>::iterator it;
   string dName, package;
-
-
-  cout<<"Inside GenerateCFile -- before for loop"<<endl;
 
   for (int i = 0; i < n_methods; i++) {
     const MethodDescriptor *method = descriptor_->method(i);

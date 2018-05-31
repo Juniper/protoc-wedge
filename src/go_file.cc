@@ -168,7 +168,6 @@ void FileGenerator::GenerateGO (io::Printer* Printer, bool create_map,
         message_generators_[i]->GenerateMessageDescriptor(Printer, false);
     }
 
-    cout<<"before calling service generator"<<endl;
     for (int i = 0; i < file_->service_count(); i++) {
         service_generators_[i]->GenerateCFile(Printer, last_file,
                 serviceVector);

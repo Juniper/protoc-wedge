@@ -123,7 +123,6 @@ static std::string getType (FieldDescriptor::Type type,
         case FieldDescriptor::TYPE_MESSAGE:
             return "\"" + descriptor_addr + "\"";
         case FieldDescriptor::TYPE_ENUM:
-            cout<<"in enum "<< descriptor_addr <<endl;
             return "\"" + descriptor_addr + "\"";
         default:
             return "\"null\"";

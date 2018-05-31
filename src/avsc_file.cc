@@ -215,7 +215,6 @@ void FileGenerator::GenerateAVSC (io::Printer* printer,
 
     getImportAVSCList(importMap, &finalList);
 
-    //std::cout<<"file is"<<file_->name()<<endl;
     for (sit = finalList.begin();  sit != finalList.end(); sit++) {
       string dependName = c::StripProto(*sit) + ".avsc";
       std::ifstream ifs(dependName.c_str());
