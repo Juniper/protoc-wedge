@@ -75,8 +75,8 @@ avro binary data to go structs and will be used by kafka plugin
 test1.proto, test2.proto, run the following command: 
 <p> $protoc-wedge --avro_out=. test1.proto test2.proto</p>
 <p> The resultant file "WedgeAvroDescTable.json" will be generated in the same
-directory. This file will be provided an an input for conversion between avro
-and protobuf. This file in conjunction with the avsc file for processing.
+directory. This file will be provided as an input for conversion between avro
+and protobuf in the wedge broker.
 </p>
 </p>
 
