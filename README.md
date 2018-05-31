@@ -80,7 +80,6 @@ and protobuf. This file in conjunction with the avsc file for processing.
 </p>
 </p>
 
-
 ### Golang structs generation:
 <p> To generate golang structs to execute RPCs from a  set of proto files
 test1.proto, test2.proto, run the following command: 
