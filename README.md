@@ -1,5 +1,3 @@
-## protoc-wedge: Generate descriptor files for use with [Wedge API broker](https://git.juniper.net/sksubra/wedge)
-
 ### Overview:
 <p>
 protoc-wedge compiler is an extension to protoc-c and can be used with the
