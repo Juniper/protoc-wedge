@@ -1,0 +1,3 @@
+[submodule "external/protobuf-c"]
+	path = external/protobuf-c
+	url = https://github.com/protobuf-c/protobuf-c
