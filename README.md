@@ -3,10 +3,10 @@
 protoc-wedge compiler is an extension to protoc-c and can be used with the
 following options:
 </p>
-1. avro_out: Generate Apache Avro wedge broker schema from protobuf 
-2. desc_out: Generate JSON descriptor table from protobuf
-3. avsc_out: Generate Apache Avro schema (i.e avsc) from protobuf
-4. go_out: Generate golang structs from protobuf for use with JSON 
+1. avro_out: Generate Apache Avro wedge broker schema from protobuf <br/>
+2. desc_out: Generate JSON descriptor table from protobuf <br/>
+3. avsc_out: Generate Apache Avro schema (i.e avsc) from protobuf <br/>
+4. go_out: Generate golang structs from protobuf for use with JSON <br/>
 
 
 ### pre-requisites
